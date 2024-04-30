@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 60%;
+    padding: 50px;
+    margin: 10px;
+  }
+  .box7{
+    float: left;
+    width: 23.3%;
+    padding: 50px;
+    margin: 10px;
+  }
+  .box3{
+    float: left;
+    width: 33.33%;
+    padding: 130px;
+    margin: 10px;
+  }
+  .box2{
+    float: left;
+    width: 50%;
+    padding: 60px;
+    margin: 10px;
+  }
+  .box1{
+    float: left;
+    width: 50%;
+    padding: 60px;
+    margin: 10px;
+  }
+  .box4{
+    float: left;
+    width: 25%;
+    padding: 50px;
+    margin: 10px;
+  }
+  .box5{
+    float: left;
+    width: 32%;
+    padding: 50px;
+    margin: 10px;
+  }
+  .box6{
+    float: left;
+    width: 25%;
+    padding: 50px;
+    margin: 10px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
